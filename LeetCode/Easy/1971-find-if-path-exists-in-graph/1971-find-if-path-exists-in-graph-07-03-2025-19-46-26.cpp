@@ -1,6 +1,7 @@
 class Solution {
 public:
     bool validPath(int n, vector<vector<int>>& edges1, int source, int destination) {
+        //bfs
         vector<vector<int>> edges(n);
         for(int i=0;i<edges1.size();i++){
             int u=edges1[i][0];
