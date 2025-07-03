@@ -1,6 +1,7 @@
 class Solution {
 public:
     int maxArea(vector<int>& height) {
+        //双指针
         int p,q;
         p=0;q=height.size()-1;
         int max=0,v;
